@@ -13,3 +13,32 @@ footer {
     height: 14vh;
     border: 1px solid red;
 }
+body{
+    background-color: #222;
+
+}
+nav{display: flex;
+justify-content: space-around;
+align-items: center;}
+ div#menu ul {
+     display: flex;
+     list-style: none;
+     
+ }
+ div#menu ul li {
+    margin: 20px;
+    color: white;
+}
+div#menu ul li a {
+    color: white;
+text-decoration: none;
+
+}
+div#button button{
+    height: 40px;
+    color: white;
+    background: linear-gradient(green, rgb(23, 58, 23));
+    border: none;
+    border-radius: 50px;
+width: 120px;
+}
